@@ -291,7 +291,7 @@ if (isset($_POST['add_to_cart'])) {
             <div class="team-grid">
                 <!-- Team Member 1 -->
                 <div class="team-member">
-                    <img src="carlo.jpg" alt="Carlo G. Quilla" class="team-photo" />
+                    <img src="assets/carlo.jpg" alt="Carlo G. Quilla" class="team-photo" />
                     <h2>Carlo G. Quilla</h2>
                     <p>Project Manager</p>
                     <a href="mailto:carloquilla1@gmail.com">carloquilla1@gmail.com</a>
@@ -299,7 +299,7 @@ if (isset($_POST['add_to_cart'])) {
 
                 <!-- Team Member 2 -->
                 <div class="team-member">
-                    <img src="shin.jpg" alt="Shin Yang Yaw" class="team-photo" />
+                    <img src="assets/shin.jpg" alt="Shin Yang Yaw" class="team-photo" />
                     <h2>Shin Yang Yaw</h2>
                     <p>Code Architect</p>
                     <a href="mailto:shinyangyaw@gmail.com">shinyangyaw@gmail.com</a>
@@ -307,7 +307,7 @@ if (isset($_POST['add_to_cart'])) {
 
                 <!-- Team Member 3 -->
                 <div class="team-member">
-                    <img src="gabriel.jpg" alt="Gabriel Dometita" class="team-photo" />
+                    <img src="assets/gabriel.jpg" alt="Gabriel Dometita" class="team-photo" />
                     <h2>Gabriel Dometita</h2>
                     <p>Security Specialist</p>
                     <a href="mailto:GabeDometita@gmail.com">GabeDometita@gmail.com</a>
@@ -315,7 +315,7 @@ if (isset($_POST['add_to_cart'])) {
 
                 <!-- Team Member 4 -->
                 <div class="team-member">
-                    <img src="sebastian.jpg" alt="Sebastian Visperas" class="team-photo" />
+                    <img src="assets/sebastian.jpg" alt="Sebastian Visperas" class="team-photo" />
                     <h2>Sebastian Visperas</h2>
                     <p>Web Developer</p>
                     <a href="mailto:bastivisperas@gmail.com">bastivisperas@gmail.com</a>
@@ -323,7 +323,7 @@ if (isset($_POST['add_to_cart'])) {
 
                 <!-- Team Member 5 -->
                 <div class="team-member">
-                    <img src="charles.jpg" alt="Charles Raphael Sanchez" class="team-photo" />
+                    <img src="assets/charles.jpg" alt="Charles Raphael Sanchez" class="team-photo" />
                     <h2>Charles Raphael Sanchez</h2>
                     <p>Documentator</p>
                     <a href="mailto:charlessanchez@gmail.com">charlessanchez@gmail.com</a>
@@ -331,7 +331,7 @@ if (isset($_POST['add_to_cart'])) {
 
                 <!-- Team Member 6 -->
                 <div class="team-member">
-                    <img src="ralph.jpg" alt="Ralph Pamintuan" class="team-photo" />
+                    <img src="assets/ralph.jpg" alt="Ralph Pamintuan" class="team-photo" />
                     <h2>Ralph Pamintuan</h2>
                     <p>Web Developer</p>
                     <a href="mailto:ralphpamintuan@gmail.com">ralphpamintuan@gmail.com</a>
@@ -374,13 +374,13 @@ if (isset($_POST['add_to_cart'])) {
         var gifSrc = "";
 
         if (gender.trim().toLowerCase() === "female" && age < 18) {
-            gifSrc = "FemaleLower18.gif";
+            gifSrc = "assets/FemaleLower18.gif";
         } else if (gender.trim().toLowerCase() === "male" && age < 18) {
-            gifSrc = "MaleLower18.gif";
+            gifSrc = "assets/MaleLower18.gif";
         } else if (gender.trim().toLowerCase() === "female" && age >= 18) {
-            gifSrc = "FemaleHigher18.gif";
+            gifSrc = "assets/FemaleHigher18.gif";
         } else if (gender.trim().toLowerCase() === "male" && age >= 18) {
-            gifSrc = "MaleHigher18.gif";
+            gifSrc = "assets/MaleHigher18.gif";
         }
 
         if (gifSrc) {
